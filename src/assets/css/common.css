@@ -7,8 +7,13 @@
   outline: none;
 }
 
+@font-face {
+  font-family: 'BF bold';
+  src: url(../BF_Modernista-Bold.woff);
+}
+
 body {
-  font-family: 'Open Sans';
+  font-family: 'BF bold';
   font-size: 14px;
   line-height: 22px;
   color: #333;
@@ -33,6 +38,10 @@ ul {
 
 li {
   list-style: none;
+}
+
+a {
+  cursor: pointer;
 }
 
 label {
@@ -141,4 +150,14 @@ p {
 
 .marginL-10 {
   margin-left: 10px;
+}
+
+.marginB-10 {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
