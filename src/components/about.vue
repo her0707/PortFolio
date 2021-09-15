@@ -65,7 +65,14 @@ export default {};
   font-size: 20px;
 }
 .about-content {
-  font-size: 20px;
+  font-size: 1.5rem;
   padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .profile-info-wrap {
+    margin-left: 0;
+    margin-top: 5rem;
+  }
 }
 </style>

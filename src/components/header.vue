@@ -2,10 +2,14 @@
   <header>
     <div class="nav-wrap">
       <div class="nav-header">
-        <a class="nav-home f-left">w.h heo's PortFolio</a>
-        <ul class="nav-menu f-right">
+        <router-link :to="{ name: 'home' }" class="nav-home f-left"
+          >w.h heo's PortFolio</router-link
+        >
+        <ul class="nav-menu f-right mobile">
           <li :key="nav" v-for="nav in nav_list">
-            <a>{{ nav }}</a>
+            <router-link :to="{ name: nav.toLowerCase() }">{{
+              nav
+            }}</router-link>
           </li>
         </ul>
       </div>
@@ -48,7 +52,7 @@ header {
   line-height: 50px;
   color: #fff;
 }
-.nav-header .nav-menu {
+.nav-menu {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -62,5 +66,10 @@ header {
   line-height: 50px;
   cursor: pointer;
   color: #fff;
+}
+@media (max-width: 768px) {
+  .nav-header {
+    padding: 0 10px;
+  }
 }
 </style>

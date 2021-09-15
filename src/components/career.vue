@@ -1,6 +1,6 @@
 <template>
   <div class="sec career">
-    <div class="sec-wrap">
+    <div class="sec-wrap" style="padding: 0;">
       <div class="card">
         <div class="card-arrow"></div>
         <div class="card-title">Career</div>
@@ -61,6 +61,11 @@ export default {};
   font-weight: 800;
   line-height: 2.5rem;
 }
+.card-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .card-content-box .title {
   margin-top: 1rem;
   font-size: 1.8rem;
@@ -75,5 +80,12 @@ export default {};
 .card-content-box .about {
   padding: 1rem 0px;
   color: rgb(0, 173, 181);
+}
+@media (max-width: 768px) {
+  .card {
+    justify-content: flex-end;
+    right: 1rem;
+    padding-right: 3rem;
+  }
 }
 </style>

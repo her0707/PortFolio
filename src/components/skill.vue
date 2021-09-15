@@ -94,4 +94,10 @@ export default {};
 .skill-box .content-list {
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  .skill-wrap {
+    display: block;
+  }
+}
 </style>

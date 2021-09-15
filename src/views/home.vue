@@ -19,21 +19,4 @@ export default {
 };
 </script>
 
-<style>
-.home {
-  background-image: url(../assets/img/bg.jpg);
-}
-.sec {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-.sec.about h2 {
-  color: #03464f;
-}
-.sec-wrap {
-  position: relative;
-  border-radius: 2rem;
-  background-color: rgb(238, 238, 238);
-}
-</style>
+<style></style>

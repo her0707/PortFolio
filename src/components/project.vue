@@ -185,4 +185,15 @@ export default {};
 .project-box .icons a {
   line-height: 14px;
 }
+@media (max-width: 768px) {
+  .project-wrap {
+    display: block;
+  }
+  .project-box {
+    margin-bottom: 10px;
+  }
+  .project-box .icons {
+    bottom: -2rem;
+  }
+}
 </style>
