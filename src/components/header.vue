@@ -5,13 +5,15 @@
         <router-link :to="{ name: 'home' }" class="nav-home f-left"
           >w.h heo's PortFolio</router-link
         >
-        <ul class="nav-menu f-right mobile">
-          <li :key="nav" v-for="nav in nav_list">
-            <router-link :to="{ name: nav.toLowerCase() }">{{
-              nav
-            }}</router-link>
-          </li>
-        </ul>
+        <div class="pc">
+          <ul class="nav-menu f-right">
+            <li :key="nav" v-for="nav in nav_list">
+              <router-link :to="{ name: nav.toLowerCase() }">{{
+                nav
+              }}</router-link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>

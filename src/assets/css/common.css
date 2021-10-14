@@ -112,6 +112,10 @@ body {
   display: none;
 }
 
+.pc {
+  display: block;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -275,6 +279,14 @@ p {
 
   .flex {
     flex-direction: column;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .pc {
+    display: none;
   }
 
   .sec-wrap {

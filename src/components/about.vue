@@ -35,6 +35,9 @@ export default {};
 </script>
 
 <style scoped>
+.sec.about {
+  height: 100vh;
+}
 .sec-wrap .profile-img-wrap {
   position: relative;
 }
