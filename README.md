@@ -2,7 +2,7 @@
 
 ## 소개
 React, Next 환경 기술스택 습득 이전 이력 소개르 위해 만든 포트폴리오 프로젝트
-현재는 기술블로그로 이동
+현재는 [기술블로그](https://github.com/her0707/her0707.github.io)로 내용 이동
 
 ## Project setup
 ```
